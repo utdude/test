@@ -27,7 +27,7 @@ jobs:
         pyinstaller --onefile --noconsole Teams.py
  
     - name: Upload exe
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Teams-exe
         path: dist/Teams.exe
